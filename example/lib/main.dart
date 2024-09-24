@@ -124,6 +124,7 @@ class MyAppState extends State<MyApp> {
               right: 0,
               bottom: 0,
               child: SfDateRangePicker(
+                minDate: DateTime.now(),
                 dividerColor: Colors.grey,
                 backgroundColor: Colors.white,
                 onSelectionChanged: _onSelectionChanged,

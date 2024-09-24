@@ -4379,7 +4379,7 @@ class _SfDateRangePickerState extends State<_SfDateRangePicker>
             ),
           );
 
-    final List<Widget> children = <Widget>[pickerView];
+    final List<Widget> children = <Widget>[header,pickerView];
     if (isHorizontal) {
       children.add(Positioned(
         top: 0,
@@ -4392,7 +4392,9 @@ class _SfDateRangePickerState extends State<_SfDateRangePicker>
       ));
     }
 
-    children.add(header);
+    if (widget.stickyScroll) {
+      children.add(header);
+    }
     return SizedBox(
         width: width,
         height: height,
