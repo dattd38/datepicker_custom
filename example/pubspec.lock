@@ -99,7 +99,7 @@ packages:
     source: hosted
     version: "3.0.2"
   flutter_localization:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: flutter_localization
       sha256: "9b3b8825146a3850297a0ec3686b326d618328dca4cd5178b764af9303a26379"

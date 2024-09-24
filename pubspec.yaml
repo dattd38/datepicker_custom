@@ -13,7 +13,7 @@ dependencies:
   plugin_platform_interface: ^2.0.2
   intl: '>=0.18.1 <0.20.0'
   syncfusion_flutter_core: ^26.2.14
-  flutter_localization: ^0.2.2
+
 
 dev_dependencies:
   flutter_test:
